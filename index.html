@@ -17,7 +17,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
-
 </head>
 
 <body>
@@ -27,9 +26,6 @@
     <nav id="nav-menu">
         <div class="max-width">
             <div class="logo"><a href="#">Raz<span> Bhagat</span></a>
-
-
-
             </div>
             <ul class="menu">
                 <li><a href="#home" class="nav-link home" id="nav-link_home">Home</a></li>
@@ -168,7 +164,7 @@
         </div>
     </section>
 
- 
+
     <section class="project" id="projects">
 
         <h3 style="text-align: center; font-size: 3vw; color: white;"><span
@@ -193,10 +189,10 @@
                                 style="color: RGB(220 20 60);">Tech Stack: </span> React | JavaScript | CSS
                         </p>
 
-                        <a class="project-github-link" target="_blank"
-                            href="https://github.com/raz001/tall-yak-6508">GitHub</a>
-                        <a class="project-deployed-link" target="_blank"
-                            href="https://fashion-frenzy-1f2f38.netlify.app/">Live</a>
+                        <a class="project-github-link" href='https://github.com/raz001/tall-yak-6508'
+                            target="_blank">GitHub</a>
+                        <a class="project-deployed-link" href="https://fashion-frenzy-1f2f38.netlify.app/"
+                            target="_blank">Live</a>
                     </div>
 
                 </div>
@@ -227,10 +223,11 @@
 
                 <div id="project" class="newp">
 
-                    <div id="created" class="project-card" style="display: block; margin: auto; padding-left: 0%; gap: 40px">
+                    <div id="created" class="project-card"
+                        style="display: block; margin: auto; padding-left: 0%; gap: 40px">
                         <div class="project-card" style="display: flex; margin-bottom: 5%; gap: 40px">
                             <div class="work" style="margin-left:.2%">
-                                <img style="width:100%; height: 100px" src="resources/gradigi.png">
+                                <img style="width:100%" src="resources/gradigi.png">
                             </div>
 
                             <div class="newlayer" style="font-size:1.5vw">
@@ -242,28 +239,23 @@
                                         User, each with specific features.
                                         <br> </span></p>
 
-                                        <p id="p" class="project-tech-stack" style="color:  white;"> <span
-                                            style="color: RGB(220 20 60);">Tech Stack: </span> React | Redux | JavaScript | Material UI
-                                    </p>
+                                <p id="p" class="project-tech-stack" style="color:  white;"> <span
+                                        style="color: RGB(220 20 60);">Tech Stack: </span> React | Redux | JavaScript |
+                                    Material UI
+                                </p>
 
                                 <a class="project-github-link" target="blank"
                                     href="https://github.com/masai-builds/Team5_Frontend">GitHub</a>
                                 <a class="project-deployed-link" target="blank"
                                     href="https://gradigi.netlify.app/">Live</a>
                             </div>
-
-
-
-
                         </div>
-
-
                     </div>
                 </div>
 
     </section>
 
-     <!-- <section class="project" id="projects">
+    <!-- <section class="project" id="projects">
         <h3 class="project-heading">My Projects</h3>
         <div class="project-card">
             <div class="work">
@@ -307,13 +299,10 @@
             </div>
         </div>
     </section> -->
-     
-
-
 
     <section class="github" id="github">
 
-        <h2 class="title">GITHUB CONTRIBUTION CALENDER</h2>
+        <h2 class="title">GITHUB CONTRIBUTION CALENDAR</h2>
         <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
         </script>
 
@@ -321,16 +310,38 @@
         <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
 
 
-        <div class="calendar react-activity-calendar " id="calendwer"></div>
+        <div class="calendar" id="calendar"></div>
 
         <script>
-            // const GitHubCalendar = require("github-calender")
+            //const GitHubCalendar = require("github-calender")
             GitHubCalendar(".calendar", "raz001");
 
             // or enable responsive functionality:
             GitHubCalendar(".calendar", "raz001", { responsive: true });
         </script>
     </section>
+
+    <section class="github1" id="github1">
+
+        <h2 class="title">GITHUB STATISTICS</h2>
+        <div id="git-img">
+            <img id="github-streak-stats"
+                src="https://github-readme-streak-stats.herokuapp.com/?user=raz001&count_private=true&show_icons=true&custom_title=Github&theme=algolia&hide_border=true&bg_color=0,000000,130F40&layout=compact&border_radius=10"
+                alt="GitHub Streak Stats" width="30%" />
+
+            <img id="github-top-langs"
+                src="https://github-readme-stats.vercel.app/api/top-langs/?username=raz001&count_private=true&theme=algolia&bg_color=0,000000,130F40&layout=compact&border_radius=8&hide_border=true&langs_count=20&hide=hack,swift,kotlin,objective-c"
+                alt="GitHub Top Languages" width="26.9%" />
+
+            <img id="github-stats-card"
+                src="https://github-readme-stats.vercel.app/api?username=raz001&show_icons=true&count_private=true&theme=algolia&bg_color=0,000000,130F40&layout=compact&border_radius=10&hide_border=true"
+                alt="GitHub Stats" width="30%" />
+
+
+        </div>
+    </section>
+
+
 
     <!-- contact section start -->
     <section class="contact" id="contact">
@@ -406,8 +417,7 @@
         </div>
     </section>
 
-
-    <script src="index.js"></script>
 </body>
+<script src="index.js"></script>
 
 </html>

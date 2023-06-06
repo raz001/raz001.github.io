@@ -66,7 +66,7 @@ $(document).ready(function(){
     });
 
     var typed = new Typed(".typing-2", {
-     strings:  ["Full Stack Web Developer!", "Problem  Solver","Fast Learner"],
+     strings:  ["Full Stack Web Developer!", "Problem  Solver"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
