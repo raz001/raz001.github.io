@@ -59,14 +59,14 @@ $(document).ready(function(){
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["Full Stack Web Developer!", "Problem  Solver","Fast Learner"],
+        strings: ["Full Stack Web Developer!", "Problem Solver","Fast Learner"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-     strings:  ["Full Stack Web Developer!", "Problem  Solver"],
+     strings:  ["Full Stack Web Developer!", "Problem Solver"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
